@@ -4,8 +4,8 @@ services:
     build: .
     command: python app.py
     ports:
-      - target: 5000
-        published: 5000
+      - target: 8080
+        published: 8080
     networks:
       - counter-net
     volumes:
